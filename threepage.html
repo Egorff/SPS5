@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="threepage.css">
+</head>
+<body class="body">
+    
+    <nav class="nav">
+        <a href="index (3).html"><button class="b1">Home</button></a>
+		<button class="btn">Background color</button>
+        <a href="twopage.html"><button class="b1">back page</button></a>
+     </nav>
+
+     <hr class="hr">
+
+     <p class="p">4-ое место занимает "Sniper Elite 5". Дата релиза: 2022-2023. 
+        Продолжение истории культового снайпера — это все, что известно об Sniper Elite 5. Прошлая часть вышла в 2017 году, поэтому есть большой шанс, что игру анонсируют уже в этом году и выпустят в скором времени.
+
+        Причины, по которым нужно ждать «элитного снайпера»:
+        
+        хорошая симуляция стрелка,
+        высокая реалистичность игры (чувствуется отдача от ружья, дрожание руки и т.д.).
+
+     </p>
+     
+     <hr class="hr">
+
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/CKJWFSskeYY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="img"></iframe>
+
+     <hr class="hr">
+
+     <p class="p">На 3-ем месте игра "League Of Legends: Wild Rift". Новая часть культовой «линейки» наконец добралась до консолей и мобилок!
+          Разработчики обещают в новой части немного переделанный и более адаптированный под быстрые матчи геймплей.
+        Однако, саму игру стоит ожидать не раньше новогодних каникул. Второй закрытый альфа-тест новой «Линейки» заканчивается 27 июня.
+         А это значит, что разработчикам нужно время на проработку косяков, запуска, открытого альфа- и бета-тестов и только потом уже можно говорить о релизе.  </p>
+
+<hr class="hr">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e2TZAAQmGho" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="img"></iframe>
+
+<hr class="hr">
+
+<p class="p">2-ое место занимает игра "Spider-Man 2". Дата выхода: 2021-2022 год. 
+        Пока что о продолжении истории Человека Паука известно немного. Предполагается, что геймеры встретят старых и новых врагов Питера Паркера.
+         Также известно, что часть событий в открытом мире Нью-Йорка будет происходить зимой. Каких именно — пока в секрете.
+        Немного больше геймерам станет известно к концу 2020.
+         Геймдевы планируют официально презентовать игру зимой этого года, а запустить в продажу к концу следующего.
+          Ну а пока что геймеры могут ещё раз пройти первую часть игры Spider Man на PS4.
+</p>
+
+<hr class="hr">
+
+<img src="https://img.moyo.ua/img/news_desc/1665/166565_1594011769_17.png" class="img">
+
+<hr class="hr">
+
+<p class="p">И почетную золотую медаль заполучает игра под названием "God Of War 2". Дата релиза: 2021-2022.
+        Прошлая часть «Бога войны» вызвала ошеломительный успех, получив сотни наград и десятки миллионов долларов прибыли.
+         Поэтому геймдевы God Of War сразу понимали, что им нужно будет создавать продолжение франшизы.
+         А учитывая интересную концовку прошлой игры (спойлерить не будем — вдруг кто-то ещё не играл), то сама история располагает рассказать её дальше!
+        Разработка игры началась в 2019 году, ждать её придется не раньше 2021-2022 года.
+         Пока что создатели не раскрывают особенностей сюжета, но судя по слитым инсайдам, понятно, что пользователям нужно ждать её уже на PS5.
+          GoW 2 должна получить улучшение боевых систем, игровых механик и сражений с врагами.
+</p>
+
+<hr class="hr">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m6YNvO0lbko" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="img"></iframe>
+
+<hr class="hr">
+
+ <script>
+	 document.querySelector('.btn').addEventListener('click', changeColor);
+        const anime = document.querySelectorAll('body');
+        counter = 0;
+
+        function changeColor() {
+            const colors = ["lightgreen", "pink", "lightyellow",  "lightblue"];
+            const len = colors.length;
+
+            counter = (counter + 1) % len;
+            document.body.style.backgroundColor = colors[counter];
+        }
+	</script>
+
+</body>
+</html>

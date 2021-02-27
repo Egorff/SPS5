@@ -1,0 +1,51 @@
+.body {
+    background-color: yellow;
+}
+
+.nav{
+    display: flex;
+justify-content: space-around;
+}
+
+.b1 {
+    color: white;
+    background-color: grey;
+    border-radius: 35px;
+    font-size: 45px;
+}
+
+.hr {
+    margin: 20px 0;
+	padding: 0;
+	height: 1px;
+	border: none;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+    background-color: black;
+    size: 10px;
+}
+
+.p {
+    font-weight: 550;
+    font-size: 25px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.img {
+    margin-left: 650px;
+ 
+}
+
+.p {
+    font-weight: 550;
+    font-size: 25px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.btn {
+	background-size: 40px;
+    color: white;
+    background-color: grey;
+    border-radius: 35px;
+    font-size: 45px;
+}

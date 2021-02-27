@@ -1,0 +1,68 @@
+.body {
+background-color: yellow;
+}
+
+.h2 {
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 50px;
+}
+nav{
+    display: flex;
+justify-content: space-around;
+}
+
+.b1 {
+	background-size: 40px;
+    color: white;
+    background-color: grey;
+    border-radius: 35px;
+    font-size: 45px;
+}
+
+.btn {
+	background-size: 40px;
+    color: white;
+    background-color: grey;
+    border-radius: 35px;
+    font-size: 45px;
+}
+
+.pu {
+    font-weight: 550;
+    font-size: 30px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.hr {
+    margin: 20px 0;
+	padding: 0;
+	height: 1px;
+	border: none;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+    background-color: black;
+    size: 10px;
+}
+
+img {
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+}
+
+.nav2 {
+	   display: flex;
+justify-content: space-around;
+	background-color: grey;
+	
+}
+
+.pu2 {
+    font-weight: 550;
+	color: lightgrey;
+    font-size: 50px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	text-decoration: none;
+	background-color: grey;
+}
